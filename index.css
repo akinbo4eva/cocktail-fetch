@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#drinks {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 239, 229);
+    box-shadow: 0 0 5px #c1c1c1;
+    border-radius: 5px;
+    padding: 2px;
+    width: fit-content;
+}
+#drinks .item {
+    width: 266px;
+    margin: 10px;
+    /* box-shadow: 0 0 5px; */
+    padding: 2px;
+
+}
+
+#drinks .image {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#drinks p{
+    color: black;
+}
